@@ -1,0 +1,25 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.tasksCounterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.content {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
