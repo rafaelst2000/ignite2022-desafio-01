@@ -16,6 +16,7 @@ O projeto é a minha resolução do 1º desafio do Bootcamp Ignite na trilha de 
 ## **:computer: Tecnologias**
 
   - **ReactJS - Framework Javascript**
+  - **Typescript - Superset do Javascript**
   - **Phosphor React - Biblioteca de ícones**
   - **Vite - Bundler e Dev-server**
 
