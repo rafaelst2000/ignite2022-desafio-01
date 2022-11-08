@@ -23,6 +23,7 @@
 
 .task .finishedTask {
   text-decoration: line-through;
+  color: var(--gray-300);
 }
 
 .checkContainer {
@@ -47,6 +48,9 @@
   background: var(--purple);
   border-radius: 50%;
   color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .deleteButton {

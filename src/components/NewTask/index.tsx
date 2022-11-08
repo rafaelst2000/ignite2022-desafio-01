@@ -18,12 +18,9 @@ export function NewTask({ onCreateNewTask }: NewTaskProps) {
   return (
     <form className={styles.newTask}>
       <input
-        type="text"
-        name="newTask"
         placeholder="Adicione uma nova tarefa"
         value={newTask}
         onChange={(event) => setNewTask(event.target.value)}
-        required
       />
       <button onClick={handleCreateNewTask} type="submit">
         Criar
